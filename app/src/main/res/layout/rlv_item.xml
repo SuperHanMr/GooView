@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    >
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_weight="1"
+        android:text="这是标题"
+        android:id="@+id/tv_tilte"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_num"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:text="6"
+        android:textColor="#fff"
+        android:textSize="23sp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/tv_showmsg_shap"
+        />
+
+</LinearLayout>
